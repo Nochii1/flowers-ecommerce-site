@@ -2,10 +2,14 @@
   "name": "flowers-ecommerce-site",
   "version": "0.6.0",
   "description": "Flower & Gardening Ecommerce Website",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "index.js",
   "scripts": {
     "build": "npm run clean && webpack --config ./webpack.config.js --env env=prod",
-    "start:prod": "webpack serve --config ./webpack.config.js --mode production --env env=prod --open",
+    "start": "webpack serve --config ./webpack.config.js --mode production --env env=prod --open",
+    "start:prod": "webpack serve --config ./webpack.config.js --mode development --env env=prod --open",
     "start:dev": "npx webpack-dev-server --mode development",
     "clean": "rimraf dist"
   },
