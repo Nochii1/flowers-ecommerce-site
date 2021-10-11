@@ -1,0 +1,1 @@
+export const apiUrl = 'http://flowersecommerceapi-env-1.eba-mkf539ta.us-west-1.elasticbeanstalk.com/api/v0'

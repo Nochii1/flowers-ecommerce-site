@@ -1,0 +1,21 @@
+/* GENERAL */
+html{
+	height:100%;
+} 
+
+body {
+    height:100%;
+}
+
+/* HEADER */
+
+/* Dropdown */
+.dropdown-content {
+    display: none;
+    position:absolute;
+    flex: 1 1 0%;
+    flex-direction: column;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: flex;}
