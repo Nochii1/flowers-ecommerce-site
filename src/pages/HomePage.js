@@ -16,7 +16,7 @@ const HomePage = {
                             <select id="order-price" class="form-select block w-full mt-1">
                                 <option value="">Order by...</option>
                                 <option value="ASC">Lower Price</option>
-                                <option value="DESC">Higher Precio</option>
+                                <option value="DESC">Higher Price</option>
                             </select>
                         </label>
                     </div>
