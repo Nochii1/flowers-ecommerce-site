@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run clean && webpack --config ./webpack.config.js --env env=prod",
-    "start": "webpack serve --config ./webpack.config.js --mode production --env env=prod --open",
+    "start": "node server.js",
     "start:prod": "webpack serve --config ./webpack.config.js --mode development --env env=prod --open",
     "start:dev": "npx webpack-dev-server --mode development",
     "clean": "rimraf dist"
