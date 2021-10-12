@@ -22,7 +22,7 @@ const CategoriesDropdown = {
                     ${items.map( ({id, name}) => `
                         <span 
                             data-id="${id}" 
-                            class="hover:underline cursor-pointer text-sm ${category == id ? 'underline' : ''}"
+                            class="hover:underline uppercase cursor-pointer text-sm ${category == id ? 'underline' : ''}"
                         >${name}</span>
                     `).join('\n')}
                 </div>

@@ -1,9 +1,9 @@
 const ProductCard = {
-    render: ({id, name,urlImage, price, discount, category }) => {
+    render: ({id, name,url_image, price, discount, category }) => {
         const totalDiscount = discount > 0 ? price-((price*discount)/100) : 0
         return `
             <li class="shadow-md p-3 border border-gray-300">
-                <img src="${urlImage}" alt="${name}" />
+                <img src="${url_image != '' ? url_image : 'http://owen.tuzitio.com/assets/camaleon_cms/image-not-found-4a963b95bf081c3ea02923dceaeb3f8085e1a654fc54840aac61a57a60903fef.png'}" alt="${name}" />
                 <div class="flex flex-col py-2 justify-between space-y-2 border-t border-gray-300">
                     <div class="flex flex-col">
                         <label class="truncate font-semibold">${name}</label>
@@ -21,7 +21,7 @@ const ProductCard = {
                         <label 
                             data-id="${id}" 
                             data-name="${name}" 
-                            data-image="${urlImage}" 
+                            data-image="${url_image}" 
                             data-price="${price}" 
                             data-discount="${discount}" 
                             data-category="${category}" 
