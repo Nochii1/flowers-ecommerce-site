@@ -37,7 +37,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About
 
-<!-- [![Flowers Ecommerce][site-screenshot]][site_url] -->
+[![Flowers Ecommerce][site-screenshot]][site_url]
 
 Flower & Gardening Ecommerce Website build with JavaScript Vanilla and TailwindCSS
 
@@ -91,6 +91,6 @@ Project Link: [https://github.com/Nochii1/flowers-ecommerce-site][github_url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [issues-url]: https://github.com/Nochii1/flowers-ecommerce-site/issues
-<!-- [site-screenshot]: public/assets/site-screenshot.png -->
+[site-screenshot]: public/assets/site-screenshot.png
 [site_url]: http://flowers-ecommerce-site.herokuapp.com/
 [github_url]: https://github.com/Nochii1/flowers-ecommerce-site
