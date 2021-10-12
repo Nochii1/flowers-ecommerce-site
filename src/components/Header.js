@@ -49,6 +49,8 @@ const Header = {
                 const searchKeyword = e.target.value
                 history.pushState({}, "", `/?search=${searchKeyword}`)
                 await ProductList.rerender()
+                window.scrollTo(0, 0)
+                document.getElementById('sales-filter').checked = false
                 hideLoading(true)
             })
     },

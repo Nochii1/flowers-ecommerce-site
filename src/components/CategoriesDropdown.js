@@ -34,13 +34,17 @@ const CategoriesDropdown = {
         document
             .getElementById('categories-dropdown')
             .addEventListener('click', async (e) => {
-                showLoading(true)
-                e.preventDefault()
                 const categoryId = e?.target?.dataset?.id
-                history.pushState({}, "", `/?category=${categoryId}`)
-                await CategoriesDropdown.rerender()
-                await ProductList.rerender()
-                hideLoading(true)
+                if(categoryId){
+                    showLoading(true)
+                    e.preventDefault()
+                    history.pushState({}, "", `/?category=${categoryId}`)
+                    await CategoriesDropdown.rerender()
+                    await ProductList.rerender()
+                    window.scrollTo(0, 0)
+                    document.getElementById('sales-filter').checked = false
+                    hideLoading(true)
+                }
             })
     },
     rerender: async () => {
