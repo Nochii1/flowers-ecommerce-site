@@ -1,7 +1,7 @@
 {
   "name": "flowers-ecommerce-site",
   "version": "0.6.0",
-  "description": "Flower & Gardening Ecommerce Website",
+  "description": "Flower Ecommerce Website",
   "engines": {
     "node": "14.x"
   },

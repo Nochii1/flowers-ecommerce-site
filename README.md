@@ -39,7 +39,7 @@
 
 [![Flowers Ecommerce][site-screenshot]][site_url]
 
-Flower & Gardening Ecommerce Website build with JavaScript Vanilla and TailwindCSS
+Flower Ecommerce Website build with JavaScript Vanilla and TailwindCSS
 
 ### Built With
 
